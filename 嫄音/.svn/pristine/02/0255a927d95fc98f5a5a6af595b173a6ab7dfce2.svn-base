@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>列表页</title>
+    <link rel="stylesheet" type="text/css" href="../css/aui.css" />
+</head>
+<style>
+	.logoimg{
+		margin: 50px;
+		text-align: center;
+	}
+	.logoimg img
+	{
+		border-radius: 50%;
+		width: 100px;
+	}
+    .ems
+    {
+        font-size: large;
+    }
+    .my-header {
+    background: url('../image/mybg.png') no-repeat;
+    background-size: cover;
+    min-height: 220px;
+    position: relative;
+}
+.my-info {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    vertical-align: center;
+}
+.my-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.my-info p.nickname {
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.my-menu {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: #ffffff;
+    filter:Alpha(opacity=50);
+    background:rgba(255, 255, 255, 0.2) none repeat scroll 0 0 !important;
+    color: #ffffff;
+    font-size: 14px;
+}
+.my-menu .aui-col-xs-3 {
+    border-right: 1px solid #9bd6d5;
+}
+.my-menu .aui-col-xs-3:last-child {
+    border-right: none;
+}
+.my-menu > div:active {
+    background: #ffffff;
+    filter:Alpha(opacity=50);
+    background:rgba(255, 255, 255, 0.2) none repeat scroll 0 0 !important;
+}
+.aui-list-view-cell {
+    line-height: 26px;
+}
+.btn
+{
+    width: 575px;
+    height: 50px;
+    margin: 0 auto;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+</style>
+<body>
+	<!-- <div class="logoimg">
+		<img src="../image/logo.png">
+	</div> -->
+    <div class="aui-content my-header">
+        <div class="my-info">
+            <img src="../image/logo.png">
+            <p class="nickname">音乐</p>
+        </div>
+        <div class="my-menu">
+            <div class="aui-col-xs-3">首页</div>
+            <div class="aui-col-xs-3">动态</div>
+            <div class="aui-col-xs-3">关注</div>
+            <div class="aui-col-xs-3">设置</div>
+        </div>
+    </div>
+
+    <div class="aui-content">
+        <ul class="aui-user-view">
+            <li class="aui-user-view-cell aui-img">
+                <div class="aui-img-body">
+                    <span>当前版本<a href="#" class=".ems" style="float: right;">v0.03</a></span>
+                </div>
+            </li>
+<!--             <li class="aui-user-view-cell aui-img">
+                <img class="aui-img-object aui-pull-left" src="../image/m2.png">
+                <div class="aui-img-body">
+                    <span>张三<em>11.1KM</em></span>
+                    <p class='aui-ellipsis-1'>山东 潍坊</p>
+                </div>
+            </li>
+            <li class="aui-user-view-cell aui-img">
+                <img class="aui-img-object aui-pull-left" src="../image/m3.png">
+                <div class="aui-img-body">
+                    <span>张三叫李四<em>11.1KM</em></span>
+                    <p class='aui-ellipsis-1'>山东 潍坊</p>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+
+    <div class="aui-content">
+        <ul class="aui-list-view">
+            <li class="aui-list-view-cell aui-switch-body">
+                <div class="aui-switch-title">开机启动</div>
+                <input type="checkbox" class="aui-switch aui-pull-right" checked>
+            </li>
+            <li class="aui-list-view-cell aui-switch-body">
+                <div class="aui-switch-title">声音提醒</div>
+                <input type="checkbox" class="aui-switch aui-pull-right" checked>
+            </li>
+            <li class="aui-list-view-cell aui-switch-body">
+                <div class="aui-switch-title">自动更新</div>
+                <input type="checkbox" class="aui-switch aui-pull-right">
+            </li>
+        </ul>
+    </div>
+
+    <div class="aui-content">
+        <ul class="aui-list-view">
+            <li class="aui-list-view-cell">
+                <a class="aui-arrow-right">
+                清除缓存
+                <span class="aui-badge aui-badge-danger">36M</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="aui-content">
+        <ul class="aui-list-view">
+            <li class="aui-list-view-cell">
+                <button class="btn" onclick="closeWin()">退出</button>
+            </li> 
+        </ul>
+    </div>
+
+</body>
+<script type="text/javascript" src="../script/api.js" ></script>
+<script type="text/javascript">
+    apiready = function(){
+        api.parseTapmode();
+
+      
+    }
+      function closeWin(){
+        api.closeWin();
+    }
+        
+</script>
+</html>

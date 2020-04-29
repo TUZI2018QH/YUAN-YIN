@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>话</title>
+    <link rel="stylesheet" type="text/css" href="../css/aui.css" />
+    <link rel="stylesheet" type="text/css" href="../css/aui-slide.css" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="../css/animate.min.css" rel="stylesheet" media="all">
+    <link href="../css/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+</head>
+<style>
+img.avatar {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+.boxCont{
+    position:relative;
+}
+
+    body {
+        background: #ffffff;
+    }
+    .bg-dark {
+        background: #333333 !important;
+    }
+    .aui-slide-node img {
+        width: auto;
+        height: 100%;
+    }
+</style>
+<body>
+    <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Third Slide -->
+                <div class="item active">
+
+                    <!-- Slide Background -->
+                    <img src="../image/slide1.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+
+                    <div class="container">
+                        <div class="row">
+                            <!-- Slide Text Layer -->
+                            <div class="slide-text slide_style_left">
+                                <h1 data-animation="animated zoomInRight">今</h1>
+                                <p data-animation="animated fadeInLeft">此时此刻</p>
+                                <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">😊</a>
+                                <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">😘</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="../image/slide2.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_center">
+                        <h1 data-animation="animated flipInX">夜</h1>
+                        <p data-animation="animated lightSpeedIn">夜晚</p>
+                        <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">🎶</a>
+                        <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">🌹</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="../image/slide3.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_right">
+                        <h1 data-animation="animated zoomInLeft">话</h1>
+                        <p data-animation="animated fadeInRight">围炉夜话</p>
+                        <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">💕</a>
+                        <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">🐱‍🐉</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+
+            </div><!-- End of Wrapper For Slides -->
+
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">P</span>
+            </a>
+
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">N</span>
+            </a>
+    </div>
+    <!-- End  bootstrap-touch-slider Slider -->
+
+
+    <div class="aui-content">
+        <ul class="aui-waterfall" id="aui-waterfall"> 
+            <li> 
+                <div class="aui-waterfall-header">
+                    <img src="../image/mxsf.jpg" />
+                </div>
+                <div class="aui-waterfall-body">
+                    李翔君
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        梦醒时分
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div> 
+            </li>
+            <li> 
+                <div class="aui-waterfall-header">
+                    <img src="../image/2013.jpg" />
+                </div>
+                <div class="aui-waterfall-body">
+                    一起看春晚
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        2020
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div> 
+            </li>
+            <li> 
+                <div class="aui-waterfall-header">
+                    <img src="../image/bg4.jpg" />
+                </div>
+                <div class="aui-waterfall-body">
+                    紫色月亮
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        森林
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div> 
+            </li>
+            <li> 
+                <div class="aui-waterfall-header">
+                    <img src="../image/slide2.jpeg" />
+                </div>
+                <div class="aui-waterfall-body">
+                    边吃边听
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        辣上耳朵
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div> 
+            </li>
+            <li> 
+                <div class="aui-waterfall-header">
+                    <img src="../image/bg41.gif" />
+                </div>
+                <div class="aui-waterfall-body">
+                    迸裂
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        ROCK
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div> 
+            </li>
+
+            <li> 
+                <div class="aui-waterfall-header">
+                    <img src="../image/try.jpg" />
+                </div>
+                <div class="aui-waterfall-body">
+                    会尝试靠近
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        准备好
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div> 
+            </li>
+            <li> 
+                <div class="aui-waterfall-header">
+                    <img src="../image/4.png" />
+                </div>
+                <div class="aui-waterfall-body">
+                    一直在路上
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        FM
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div> 
+
+            </li>
+        </ul> 
+    </div>
+    <button id="test" style="position:fixed;right:2px;bottom:2px;z-index: 99">回到顶部</button>
+</body>
+
+<script type="text/javascript" src="../script/api.js" ></script>
+<script type="text/javascript" src="../script/aui-waterfall.js" ></script>
+<script src="../script/jquery.min.js"></script>
+<script src="../script/velocity.js"></script>
+<script src="../script/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="../script/bootstrap.min.js"></script>
+<script src="../script/jquery.touchSwipe.min.js"></script>
+<script src="../script/bootstrap-touch-slider.js"></script>
+
+<script type="text/javascript">
+    $('#bootstrap-touch-slider').bsTouchSlider();
+
+        $aui.waterfall($api.byId("aui-waterfall"),{
+        col:2,//列数
+        padding:10,//容器内边距
+        space:10//列间距
+    });
+
+    apiready = function(){
+            api.setRefreshHeaderInfo({
+            loadingImg: 'widget://image/refresh.png',
+            bgColor: '#ccc',
+            textColor: '#fff',
+            textDown: '下拉刷新...',
+            textUp: '松开刷新...'
+            }, function(ret, err) {
+        //在这里从服务器加载数据，加载完成后调用api.refreshHeaderLoadDone()方法恢复组件到默认状态
+                //下拉时，请求出发数据
+                // getData(true);
+                api.refreshHeaderLoadDone();
+            });
+    }
+
+    test.onclick = function()
+    {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+    
+</script>
+</html>
